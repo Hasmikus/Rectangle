@@ -4,9 +4,7 @@
 class Rectangle { 
       float width, length;
       public: 
-              Rectangle (Point A,Point B, Point C, Point D)
-                    {
-                    };
+              Rectangle (Point A,Point B, Point C, Point D);
               float perimeter(float width,float length);
               float get_width(); 
               float get_length();
