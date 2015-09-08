@@ -8,7 +8,7 @@ void Rectangle::setWidth (Point A,Point B) {
                    width=sqrt((B.getx()-A.getx())*(B.getx()-A.getx())+(B.gety()-A.gety())*(B.gety()-A.gety()));
                    }  
 void Rectangle::setLength (Point A, Point D) {
-                   length=sqrt((D.getx()-A.getx())*(D.getx()-A.gety())+(D.gety()-A.gety())*(D.gety()-A.gety()));
+                   length=sqrt((D.getx()-A.getx())*(D.getx()-A.getx())+(D.gety()-A.gety())*(D.gety()-A.gety()));
                    }       
 float Rectangle::get_width(){
                     return width;
