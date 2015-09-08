@@ -32,7 +32,7 @@ int main() {
 
     cout<<"----------------------"<<endl;
     R1.sameArea(R2);
-    cout<<"The coordinates of rectangle edges: (" <<A.getx()<<";"<<A.gety()<<"),"<<"("<<B.getx()<<";"<<B.gety()<<"),";
+    cout<<"\nThe coordinates of rectangle edges: (" <<A.getx()<<";"<<A.gety()<<"),"<<"("<<B.getx()<<";"<<B.gety()<<"),";
     cout<<"("<<C.getx()<<";"<<C.gety()<<"),"<<"("<<D.getx()<<";"<<D.gety()<<")"<<endl;
     cout<<"Width ="<<R1.get_width()<<"  Length="<<R1.get_length()<<endl;
     cout<<"Perimeter = "<<R1.perimeter(R1.get_width(), R1.get_length())<<endl;
