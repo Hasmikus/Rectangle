@@ -4,12 +4,10 @@
 class Rectangle { 
       float width, length;
       public: 
-              Rectangle (Point A,Point B, Point C, Point D);
+              Rectangle (Point A, Point C);
               float perimeter(float width,float length);
               float get_width(); 
               float get_length();
-              void setWidth (Point A,Point B );
-              void setLength (Point A, Point D);
               float area(float , float );
               void sameArea (Rectangle R2);
               
